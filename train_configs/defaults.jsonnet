@@ -69,8 +69,8 @@ local dataset_path = "dataset/";
     "batch_size" : 1
   },
   "trainer": {
-    "num_epochs": 100,
-    "cuda_device": 0,
+    "num_epochs": 10,
+    "cuda_device": -1,
     "patience": 20,
     "validation_metric": "+sql_match",
     "optimizer": {
